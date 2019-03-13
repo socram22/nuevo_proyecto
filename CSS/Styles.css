@@ -1,0 +1,61 @@
+header{
+    background: url("..//img/46.jpg");
+    text-align: center ;
+    min-height: 135px;
+    padding: 1px;
+    color: #000;
+    background-size: 100%;
+}
+.formulario{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.tabla{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+img{
+    border-radius: 10px;
+    float: left;
+}
+.imagen1{
+    float: right;
+}
+/*#cuerpo{
+    background: #2e6da4;
+    color: white;
+}*/
+#titulo {
+    font-family: "Times New Roman";
+    color: dodgerblue;
+    text-shadow: 3px 3px 5px black ;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar.navbar-inverse{
+    padding: 0.5em;
+
+}
+.nav.nav-pills a{
+    font-size: small;
+    padding: 0.5em;
+}
+.panel-footer{
+    height: 55px;
+}
+.btn{
+    margin-right: 0.5em;
+}
+
+#pie {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    border-top: 1px dashed black;
+    padding: 5px;
+    background: #ffffff;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi primera página</title>
+    <meta charset = "UTF-8">
+
+    <!--<link rel="stylesheet" href="js/bootstrap.js">-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Styles.css">
+</head>
+<body id="cuerpo">
+
+<header>
+    <div class="imagen">
+        <img src="img/imagen-libros.jpg" width="200px">
+    </div>
+    <div class="imagen1">
+        <img src="img/pila-libros.png" width="87px" alt="">
+    </div>
+    <div id="titulo">
+        <h1>Biblioteca</h1>
+    </div>
+        <p>"Solo <strong> sabe más </strong> quien <strong> lee más </strong>"</p>
+</header>
+<nav class="navbar navbar-inverse">
+    <ul class="nav nav-pills">
+        <li ><a href="index.html">Inicio</a></li>
+        <li ><a href="Libro.html">Libro</a></li>
+        <li class="active"><a href="Trabajador.html">Lista de Libros</a></li>
+    </ul>
+</nav>
+<section>
+    <article class="container">
+        <h2>Estamos en la página de Trabajador</h2>
+        <p>Esto es un párrafo</p>
+    </article>
+</section>
+<section class="tabla col col-xs-10 ">
+    <div class=" panel panel-default">
+        <div class="panel-heading">
+            <h1 class="panel-title">Tabla</h1>
+        </div>
+        <div class="panel-body">
+            <table class="table table-bordered">
+                <thead>
+                <th>#</th>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Cantidad de páginas</th>
+                <th>Edición</th>
+                </thead>
+                <tbody>
+                <tr class="t">
+                    <td>1</td>
+                    <td>Corazón</td>
+                    <td>Edmundo Amisis</td>
+                    <td>200</td>
+                    <td>Limitada</td>
+                </tr>
+                <tr class="t">
+                    <td>2</td>
+                    <td>Don Quijote de La Mancha</td>
+                    <td>Miguel de Cervantes</td>
+                    <td>1400</td>
+                    <td>Limitada</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="panel-footer">
+
+            <button type="button"  class="btn btn-warning pull-right">Eliminar</button>
+
+            <a data-toggle="modal" href="#myModal" class="btn btn-primary pull-right">Modal</a>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <form action="form">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h1 class="modal-title">Formulario</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="Titulo">Título</label>
+                            <input type="text"class="form-control"  placeholder="Entre el Título" required>
+                            <label for="Titulo">Autor</label>
+                            <input type="text"class="form-control"  placeholder="Entre el Autor">
+                            <label for="Titulo">Cantidad de Páginas</label>
+                            <input type="text"class="form-control"  placeholder="Entre la cantidad de páginas">
+                            <label for="Titulo">Edición</label>
+                            <input type="text"class="form-control"  placeholder="Entre la Edición">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option selected>3</option>
+                                <option >4</option>
+                                <option>5</option>
+                            </select>
+                            <div class="text">
+                                <label for="Titulo">Texto</label>
+                                <textarea class="form-control" rows="3"></textarea>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div  class="modal-footer">
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit"  class="btn btn-primary pull-right">Guardar</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</section>
+
+    <!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+        <!--<div class="modal-dialog">-->
+            <!--<div class="modal-content">-->
+                <!--<div class="modal-header">-->
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                    <!--<h4 class="modal-title">Modal title</h4>-->
+                <!--</div>-->
+                <!--<div class="modal-body">-->
+                    <!--...-->
+                <!--</div>-->
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                <!--</div>-->
+            <!--</div>&lt;!&ndash; /.modal-content &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; /.modal-dialog &ndash;&gt;-->
+    <!--</div>&lt;!&ndash; /.modal &ndash;&gt;-->
+
+<footer id="pie">
+    <h6>-Esto está desarrollado por Marcos-</h6>
+</footer>
+</body>
+</html>

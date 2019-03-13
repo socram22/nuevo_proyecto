@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi primera página</title>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/Styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+</head>
+<body id="cuerpo">
+
+<header>
+    <div class="imagen">
+        <img src="img/imagen-libros.jpg" width="200px">
+    </div>
+    <div class="imagen1">
+        <img src="img/pila-libros.png" width="87px" alt="">
+    </div>
+    <div id="titulo">
+        <h1>Biblioteca</h1>
+    </div>
+        <p>"Solo <strong> sabe más </strong> quien <strong> lee más </strong>"</p>
+</header>
+<nav class="navbar navbar-inverse">
+    <ul class="nav nav-pills">
+        <li ><a href="index.html">Inicio</a></li>
+        <li class="active"><a href="Libro.html">Libro</a></li>
+        <li ><a href="Trabajador.html">Lista de Libros</a></li>
+    </ul>
+</nav>
+<section>
+    <article class="container">
+        <h2>Estamos en la página de Libro</h2>
+
+    </article>
+</section>
+<section class="formulario col col-xs-4">
+    <form>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">Formulario</h1>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="Titulo">Título</label>
+                    <input type="text"class="form-control"  placeholder="Entre el Título" required>
+                    <label for="Titulo">Autor</label>
+                    <input type="text"class="form-control"  placeholder="Entre el Autor">
+                    <label for="Titulo">Cantidad de Páginas</label>
+                    <input type="text"class="form-control"  placeholder="Entre la cantidad de páginas">
+                    <label for="Titulo">Edición</label>
+                    <input type="text"class="form-control"  placeholder="Entre la Edición">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option selected>3</option>
+                        <option >4</option>
+                        <option>5</option>
+                    </select>
+                    <div class="text">
+                        <label for="Titulo">Texto</label>
+                        <textarea class="form-control" rows="3"></textarea>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div  class="panel-footer">
+
+
+                    <button type="submit"  class="btn btn-primary pull-right">Guardar</button>
+
+            </div>
+        </div>
+    </form>
+</section>
+<footer id="pie">
+    <h6>-Esto está desarrollado por Marcos-</h6>
+</footer>
+</body>
+</html>
